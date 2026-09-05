@@ -6,7 +6,7 @@ import requests
 import streamlit as st
 
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 AUDIT_FILE = "data/processed/agent_audit_log.jsonl"
 
 
