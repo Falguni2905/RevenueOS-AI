@@ -1,0 +1,3112 @@
+[
+    {
+        "case_id": "CASE-M00005-00001",
+        "merchant_id": "M00005",
+        "risk_score": 85,
+        "risk_category": "Critical",
+        "findings": [
+            "High failure rate",
+            "Network errors dominant",
+            "Night-time spike"
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 91,
+        "status": "OPEN",
+        "created_at": "2026-08-29T22:32:01.194356"
+    },
+    {
+        "case_id": "CASE-M00005-00002",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-29T22:39:18.705142"
+    },
+    {
+        "case_id": "CASE-M00005-00003",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-29T22:40:57.085454"
+    },
+    {
+        "case_id": "CASE-M00005-00004",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:44:26.200932"
+    },
+    {
+        "case_id": "CASE-M00007-00005",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:44:26.484026"
+    },
+    {
+        "case_id": "CASE-M00005-00006",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:44:48.996482"
+    },
+    {
+        "case_id": "CASE-M00007-00007",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:44:49.222928"
+    },
+    {
+        "case_id": "CASE-M00005-00008",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:45:45.331004"
+    },
+    {
+        "case_id": "CASE-M00007-00009",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:45:45.554374"
+    },
+    {
+        "case_id": "CASE-M00005-00010",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:47:21.318107"
+    },
+    {
+        "case_id": "CASE-M00007-00011",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:47:21.563685"
+    },
+    {
+        "case_id": "CASE-M00005-00012",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:52:12.864883"
+    },
+    {
+        "case_id": "CASE-M00007-00013",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T12:52:13.237263"
+    },
+    {
+        "case_id": "CASE-M00005-00014",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:15:08.262083"
+    },
+    {
+        "case_id": "CASE-M00007-00015",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:15:08.463222"
+    },
+    {
+        "case_id": "CASE-M00005-00016",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:18:31.122771"
+    },
+    {
+        "case_id": "CASE-M00007-00017",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:18:31.354824"
+    },
+    {
+        "case_id": "CASE-M00005-00018",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:27:01.460530"
+    },
+    {
+        "case_id": "CASE-M00007-00019",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:27:01.681320"
+    },
+    {
+        "case_id": "CASE-M00005-00020",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:28:53.356680"
+    },
+    {
+        "case_id": "CASE-M00007-00021",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:28:53.566207"
+    },
+    {
+        "case_id": "CASE-M00005-00022",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:34:04.128258"
+    },
+    {
+        "case_id": "CASE-M00007-00023",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T18:34:04.345667"
+    },
+    {
+        "case_id": "CASE-M00005-00024",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T22:52:15.521622"
+    },
+    {
+        "case_id": "CASE-M00007-00025",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T22:52:15.700523"
+    },
+    {
+        "case_id": "CASE-M00005-00026",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:03:21.225690"
+    },
+    {
+        "case_id": "CASE-M00007-00027",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:03:21.494749"
+    },
+    {
+        "case_id": "CASE-M00005-00028",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:07:28.255426"
+    },
+    {
+        "case_id": "CASE-M00007-00029",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:07:28.537189"
+    },
+    {
+        "case_id": "CASE-M00005-00030",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:21:38.427585"
+    },
+    {
+        "case_id": "CASE-M00007-00031",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:21:38.775903"
+    },
+    {
+        "case_id": "CASE-M00005-00032",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:32:14.521699"
+    },
+    {
+        "case_id": "CASE-M00007-00033",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:32:14.802189"
+    },
+    {
+        "case_id": "CASE-M00005-00034",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:36:22.684498"
+    },
+    {
+        "case_id": "CASE-M00007-00035",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:36:22.981188"
+    },
+    {
+        "case_id": "CASE-M00005-00036",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-30T23:38:24.569197"
+    },
+    {
+        "case_id": "CASE-M00001-00037",
+        "merchant_id": "M00001",
+        "risk_score": 49.91,
+        "risk_category": "Medium",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Bank Decline",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: UPI",
+                "source": "payment_method_analysis"
+            }
+        ],
+        "recommended_action": "MONITOR",
+        "confidence": 62,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:05.669892"
+    },
+    {
+        "case_id": "CASE-M00002-00038",
+        "merchant_id": "M00002",
+        "risk_score": 21.35,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Payment Timeout",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:05.789413"
+    },
+    {
+        "case_id": "CASE-M00003-00039",
+        "merchant_id": "M00003",
+        "risk_score": 4.94,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Bank Decline",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:05.919576"
+    },
+    {
+        "case_id": "CASE-M00005-00040",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:06.250363"
+    },
+    {
+        "case_id": "CASE-M00006-00041",
+        "merchant_id": "M00006",
+        "risk_score": 2.04,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:06.395458"
+    },
+    {
+        "case_id": "CASE-M00007-00042",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:06.658894"
+    },
+    {
+        "case_id": "CASE-M00008-00043",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "MONITOR",
+        "confidence": 44,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:06.807468"
+    },
+    {
+        "case_id": "CASE-M00010-00044",
+        "merchant_id": "M00010",
+        "risk_score": 15.73,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Payment Timeout",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:06.997202"
+    },
+    {
+        "case_id": "CASE-M00012-00045",
+        "merchant_id": "M00012",
+        "risk_score": 18.29,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:07.204225"
+    },
+    {
+        "case_id": "CASE-M00013-00046",
+        "merchant_id": "M00013",
+        "risk_score": 27.49,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:07.396400"
+    },
+    {
+        "case_id": "CASE-M00014-00047",
+        "merchant_id": "M00014",
+        "risk_score": 5.2,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Authentication Failure",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:07.531345"
+    },
+    {
+        "case_id": "CASE-M00015-00048",
+        "merchant_id": "M00015",
+        "risk_score": 12.11,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:07.666261"
+    },
+    {
+        "case_id": "CASE-M00016-00049",
+        "merchant_id": "M00016",
+        "risk_score": 30.04,
+        "risk_category": "Medium",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Technical Error",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "MONITOR",
+        "confidence": 44,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:07.793642"
+    },
+    {
+        "case_id": "CASE-M00017-00050",
+        "merchant_id": "M00017",
+        "risk_score": 14.8,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:07.914740"
+    },
+    {
+        "case_id": "CASE-M00019-00051",
+        "merchant_id": "M00019",
+        "risk_score": 10.37,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Bank Decline",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:08.119279"
+    },
+    {
+        "case_id": "CASE-M00020-00052",
+        "merchant_id": "M00020",
+        "risk_score": 12.57,
+        "risk_category": "Low",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            }
+        ],
+        "recommended_action": "NO_ACTION",
+        "confidence": 34,
+        "status": "OPEN",
+        "created_at": "2026-08-31T00:06:08.292732"
+    },
+    {
+        "case_id": "CASE-M00005-00053",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-01T15:53:17.497924"
+    },
+    {
+        "case_id": "CASE-M00005-00054",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-01T16:25:07.346581"
+    },
+    {
+        "case_id": "CASE-M00005-00055",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-01T16:26:11.837015"
+    },
+    {
+        "case_id": "CASE-M00005-00056",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-01T19:26:24.170599"
+    },
+    {
+        "case_id": "CASE-M00005-00057",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-01T22:50:14.752556"
+    },
+    {
+        "case_id": "CASE-M00005-00058",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-02T15:33:00.309901"
+    },
+    {
+        "case_id": "CASE-M00005-00059",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-02T19:25:39.743609"
+    },
+    {
+        "case_id": "CASE-M00005-00060",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-02T19:35:35.727552"
+    },
+    {
+        "case_id": "CASE-M00005-00061",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "OPEN",
+        "created_at": "2026-09-02T19:40:41.853952"
+    },
+    {
+        "case_id": "CASE-M00005-00062",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "created_at": "2026-09-02T19:41:03.847542",
+        "updated_at": "2026-09-05T00:26:02.910538",
+        "review_id": "REV-M00005-1788548162",
+        "review_status": "PENDING"
+    },
+    {
+        "case_id": "CASE-M00005-00063",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            "Dominant failure reason: Insufficient Funds"
+        ],
+        "recommended_action": "HUMAN_REVIEW",
+        "confidence": 0.9,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-TEST",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-02T19:46:28.263374",
+        "updated_at": "2026-09-02T19:46:28.427401"
+    },
+    {
+        "case_id": "CASE-M00005-00064",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788359088",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-02T19:54:48.723443",
+        "updated_at": "2026-09-02T19:56:54.241450"
+    },
+    {
+        "case_id": "CASE-M00005-00065",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788516458",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-02T19:58:43.633514",
+        "updated_at": "2026-09-04T15:39:32.951000"
+    },
+    {
+        "case_id": "CASE-M00005-00066",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788514549",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-02T20:08:59.867501",
+        "updated_at": "2026-09-04T15:10:57.274577"
+    },
+    {
+        "case_id": "CASE-M00005-00067",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788513709",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-02T21:34:48.908671",
+        "updated_at": "2026-09-04T14:52:12.514457"
+    },
+    {
+        "case_id": "CASE-M00005-00068",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788369213",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-02T22:43:33.076981",
+        "updated_at": "2026-09-02T22:44:49.899630"
+    },
+    {
+        "case_id": "CASE-M00008-00044",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [
+            "Elevated transaction failure rate"
+        ],
+        "recommended_action": "MONITOR",
+        "confidence": 0.8,
+        "status": "OPEN",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:29:14.546586",
+        "updated_at": "2026-09-05T00:29:14.546586"
+    },
+    {
+        "case_id": "CASE-M00008-00045",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [
+            "Second investigation event"
+        ],
+        "recommended_action": "MONITOR",
+        "confidence": 0.8,
+        "status": "OPEN",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:29:14.579857",
+        "updated_at": "2026-09-05T00:29:14.579857"
+    },
+    {
+        "case_id": "CASE-M00005-00069",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788548395",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence reviewed and escalation approved.",
+        "created_at": "2026-09-05T00:29:55.381932",
+        "updated_at": "2026-09-05T00:31:13.646119"
+    },
+    {
+        "case_id": "CASE-M00005-00070",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788548667",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence reviewed and escalation approved.",
+        "created_at": "2026-09-05T00:34:27.069547",
+        "updated_at": "2026-09-05T00:35:42.714209"
+    },
+    {
+        "case_id": "CASE-M00005-00071",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788548944",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:39:03.873005",
+        "updated_at": "2026-09-05T00:39:04.596273"
+    },
+    {
+        "case_id": "CASE-M00005-00072",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788549342",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:45:42.072835",
+        "updated_at": "2026-09-05T00:45:42.852000"
+    },
+    {
+        "case_id": "CASE-M00005-00073",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788549435",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-05T00:47:14.947320",
+        "updated_at": "2026-09-05T00:49:45.165467"
+    },
+    {
+        "case_id": "CASE-M00008-00046",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:50:21.739726",
+        "updated_at": "2026-09-05T00:50:21.807079"
+    },
+    {
+        "case_id": "CASE-M00008-00047",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:50:35.656705",
+        "updated_at": "2026-09-05T00:50:35.714523"
+    },
+    {
+        "case_id": "CASE-M00008-00048",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:50:38.532030",
+        "updated_at": "2026-09-05T00:50:38.574113"
+    },
+    {
+        "case_id": "CASE-M00008-00049",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:55:51.619063",
+        "updated_at": "2026-09-05T00:55:51.668379"
+    },
+    {
+        "case_id": "CASE-M00008-00050",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T00:56:01.927086",
+        "updated_at": "2026-09-05T00:56:01.986002"
+    },
+    {
+        "case_id": "CASE-M00005-00074",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788550312",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-05T01:01:51.252751",
+        "updated_at": "2026-09-05T01:02:17.706150"
+    },
+    {
+        "case_id": "CASE-M00005-00075",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788550503",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T01:05:03.132255",
+        "updated_at": "2026-09-05T01:05:03.991051"
+    },
+    {
+        "case_id": "CASE-M00005-00076",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788550720",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T01:08:40.069531",
+        "updated_at": "2026-09-05T01:08:40.763015"
+    },
+    {
+        "case_id": "CASE-M00005-00077",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788551164",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T01:16:04.342999",
+        "updated_at": "2026-09-05T01:16:04.659647"
+    },
+    {
+        "case_id": "CASE-M00005-00078",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788551285",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T01:18:05.326324",
+        "updated_at": "2026-09-05T01:18:05.628847"
+    },
+    {
+        "case_id": "CASE-M00005-00079",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788551607",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T01:23:27.581410",
+        "updated_at": "2026-09-05T01:23:27.955343"
+    },
+    {
+        "case_id": "CASE-M00005-00080",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788585788",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence supports the recommended action.",
+        "created_at": "2026-09-05T10:53:08.318545",
+        "updated_at": "2026-09-05T10:53:53.361646"
+    },
+    {
+        "case_id": "CASE-M00001-00038",
+        "merchant_id": "M00001",
+        "risk_score": 49.91,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:35.092217",
+        "updated_at": "2026-09-05T11:27:35.139098"
+    },
+    {
+        "case_id": "CASE-M00002-00039",
+        "merchant_id": "M00002",
+        "risk_score": 21.35,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:35.183094",
+        "updated_at": "2026-09-05T11:27:35.239880"
+    },
+    {
+        "case_id": "CASE-M00003-00040",
+        "merchant_id": "M00003",
+        "risk_score": 4.94,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:35.306324",
+        "updated_at": "2026-09-05T11:27:35.381115"
+    },
+    {
+        "case_id": "CASE-M00004-00001",
+        "merchant_id": "M00004",
+        "risk_score": 12.93,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:35.419543",
+        "updated_at": "2026-09-05T11:27:35.469612"
+    },
+    {
+        "case_id": "CASE-M00005-00081",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788587855",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:35.534778",
+        "updated_at": "2026-09-05T11:27:36.037534"
+    },
+    {
+        "case_id": "CASE-M00006-00042",
+        "merchant_id": "M00006",
+        "risk_score": 2.04,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:36.104121",
+        "updated_at": "2026-09-05T11:27:36.176876"
+    },
+    {
+        "case_id": "CASE-M00007-00043",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:36.223695",
+        "updated_at": "2026-09-05T11:27:36.542378"
+    },
+    {
+        "case_id": "CASE-M00008-00051",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:36.599647",
+        "updated_at": "2026-09-05T11:27:36.668941"
+    },
+    {
+        "case_id": "CASE-M00009-00001",
+        "merchant_id": "M00009",
+        "risk_score": 45.43,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:36.761690",
+        "updated_at": "2026-09-05T11:27:36.814662"
+    },
+    {
+        "case_id": "CASE-M00010-00045",
+        "merchant_id": "M00010",
+        "risk_score": 15.73,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:36.866262",
+        "updated_at": "2026-09-05T11:27:36.921682"
+    },
+    {
+        "case_id": "CASE-M00011-00001",
+        "merchant_id": "M00011",
+        "risk_score": 26.37,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:36.982535",
+        "updated_at": "2026-09-05T11:27:37.050487"
+    },
+    {
+        "case_id": "CASE-M00012-00046",
+        "merchant_id": "M00012",
+        "risk_score": 18.29,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.095800",
+        "updated_at": "2026-09-05T11:27:37.145467"
+    },
+    {
+        "case_id": "CASE-M00013-00047",
+        "merchant_id": "M00013",
+        "risk_score": 27.49,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.229931",
+        "updated_at": "2026-09-05T11:27:37.323252"
+    },
+    {
+        "case_id": "CASE-M00014-00048",
+        "merchant_id": "M00014",
+        "risk_score": 5.2,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.414698",
+        "updated_at": "2026-09-05T11:27:37.474733"
+    },
+    {
+        "case_id": "CASE-M00015-00049",
+        "merchant_id": "M00015",
+        "risk_score": 12.11,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.532074",
+        "updated_at": "2026-09-05T11:27:37.586917"
+    },
+    {
+        "case_id": "CASE-M00016-00050",
+        "merchant_id": "M00016",
+        "risk_score": 30.04,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.643627",
+        "updated_at": "2026-09-05T11:27:37.721014"
+    },
+    {
+        "case_id": "CASE-M00017-00051",
+        "merchant_id": "M00017",
+        "risk_score": 14.8,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.760536",
+        "updated_at": "2026-09-05T11:27:37.808360"
+    },
+    {
+        "case_id": "CASE-M00018-00001",
+        "merchant_id": "M00018",
+        "risk_score": 22.62,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.851861",
+        "updated_at": "2026-09-05T11:27:37.910094"
+    },
+    {
+        "case_id": "CASE-M00019-00052",
+        "merchant_id": "M00019",
+        "risk_score": 10.37,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:37.973137",
+        "updated_at": "2026-09-05T11:27:38.054272"
+    },
+    {
+        "case_id": "CASE-M00020-00053",
+        "merchant_id": "M00020",
+        "risk_score": 12.57,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:27:38.105655",
+        "updated_at": "2026-09-05T11:27:38.148332"
+    },
+    {
+        "case_id": "CASE-M00005-00082",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "APPROVED",
+        "review_id": "REV-M00005-1788588281",
+        "review_status": "APPROVED",
+        "reviewer": "Demo Reviewer",
+        "review_decision": "APPROVE",
+        "review_comments": "Investigation evidence reviewed and escalation approved.",
+        "created_at": "2026-09-05T11:34:41.343865",
+        "updated_at": "2026-09-05T11:36:22.372605"
+    },
+    {
+        "case_id": "CASE-M00007-00044",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:43:19.794949",
+        "updated_at": "2026-09-05T11:43:20.020909"
+    },
+    {
+        "case_id": "CASE-M00001-00039",
+        "merchant_id": "M00001",
+        "risk_score": 49.91,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:43:46.455940",
+        "updated_at": "2026-09-05T11:43:46.484944"
+    },
+    {
+        "case_id": "CASE-M00004-00002",
+        "merchant_id": "M00004",
+        "risk_score": 12.93,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T11:45:49.279261",
+        "updated_at": "2026-09-05T11:45:49.321145"
+    },
+    {
+        "case_id": "CASE-M00005-00083",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788589869",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:01:09.271544",
+        "updated_at": "2026-09-05T12:01:09.619688"
+    },
+    {
+        "case_id": "CASE-M00001-00040",
+        "merchant_id": "M00001",
+        "risk_score": 49.91,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:16.653852",
+        "updated_at": "2026-09-05T12:46:16.753353"
+    },
+    {
+        "case_id": "CASE-M00002-00040",
+        "merchant_id": "M00002",
+        "risk_score": 21.35,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:16.824422",
+        "updated_at": "2026-09-05T12:46:16.885039"
+    },
+    {
+        "case_id": "CASE-M00003-00041",
+        "merchant_id": "M00003",
+        "risk_score": 4.94,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:16.942451",
+        "updated_at": "2026-09-05T12:46:17.006552"
+    },
+    {
+        "case_id": "CASE-M00004-00003",
+        "merchant_id": "M00004",
+        "risk_score": 12.93,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:17.065765",
+        "updated_at": "2026-09-05T12:46:17.133598"
+    },
+    {
+        "case_id": "CASE-M00005-00084",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Insufficient Funds",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 3:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "ESCALATE",
+        "confidence": 100,
+        "status": "PENDING_HUMAN_REVIEW",
+        "review_id": "REV-M00005-1788592577",
+        "review_status": "PENDING",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:17.182871",
+        "updated_at": "2026-09-05T12:46:18.078406"
+    },
+    {
+        "case_id": "CASE-M00006-00043",
+        "merchant_id": "M00006",
+        "risk_score": 2.04,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:18.156147",
+        "updated_at": "2026-09-05T12:46:18.229393"
+    },
+    {
+        "case_id": "CASE-M00007-00045",
+        "merchant_id": "M00007",
+        "risk_score": 62.68,
+        "risk_category": "High",
+        "findings": [
+            {
+                "type": "failure_pattern",
+                "finding": "Dominant failure reason: Network Error",
+                "source": "failure_analysis"
+            },
+            {
+                "type": "payment_method_pattern",
+                "finding": "Highest payment-method failure rate: Net Banking",
+                "source": "payment_method_analysis"
+            },
+            {
+                "type": "time_pattern",
+                "finding": "Highest failure rate occurs around 12:00",
+                "source": "hourly_analysis"
+            }
+        ],
+        "recommended_action": "INVESTIGATE",
+        "confidence": 85,
+        "status": "OPEN",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:18.305225",
+        "updated_at": "2026-09-05T12:46:18.949133"
+    },
+    {
+        "case_id": "CASE-M00008-00052",
+        "merchant_id": "M00008",
+        "risk_score": 30.12,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.019580",
+        "updated_at": "2026-09-05T12:46:19.085550"
+    },
+    {
+        "case_id": "CASE-M00009-00002",
+        "merchant_id": "M00009",
+        "risk_score": 45.43,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.163186",
+        "updated_at": "2026-09-05T12:46:19.222610"
+    },
+    {
+        "case_id": "CASE-M00010-00046",
+        "merchant_id": "M00010",
+        "risk_score": 15.73,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.280442",
+        "updated_at": "2026-09-05T12:46:19.351274"
+    },
+    {
+        "case_id": "CASE-M00011-00002",
+        "merchant_id": "M00011",
+        "risk_score": 26.37,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.402668",
+        "updated_at": "2026-09-05T12:46:19.457415"
+    },
+    {
+        "case_id": "CASE-M00012-00047",
+        "merchant_id": "M00012",
+        "risk_score": 18.29,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.523380",
+        "updated_at": "2026-09-05T12:46:19.576228"
+    },
+    {
+        "case_id": "CASE-M00013-00048",
+        "merchant_id": "M00013",
+        "risk_score": 27.49,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.637075",
+        "updated_at": "2026-09-05T12:46:19.736615"
+    },
+    {
+        "case_id": "CASE-M00014-00049",
+        "merchant_id": "M00014",
+        "risk_score": 5.2,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.830729",
+        "updated_at": "2026-09-05T12:46:19.915876"
+    },
+    {
+        "case_id": "CASE-M00015-00050",
+        "merchant_id": "M00015",
+        "risk_score": 12.11,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:19.994268",
+        "updated_at": "2026-09-05T12:46:20.050909"
+    },
+    {
+        "case_id": "CASE-M00016-00051",
+        "merchant_id": "M00016",
+        "risk_score": 30.04,
+        "risk_category": "Medium",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:20.111192",
+        "updated_at": "2026-09-05T12:46:20.166309"
+    },
+    {
+        "case_id": "CASE-M00017-00052",
+        "merchant_id": "M00017",
+        "risk_score": 14.8,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:20.206825",
+        "updated_at": "2026-09-05T12:46:20.249802"
+    },
+    {
+        "case_id": "CASE-M00018-00002",
+        "merchant_id": "M00018",
+        "risk_score": 22.62,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "NO_ACTION",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:20.291686",
+        "updated_at": "2026-09-05T12:46:20.347157"
+    },
+    {
+        "case_id": "CASE-M00019-00053",
+        "merchant_id": "M00019",
+        "risk_score": 10.37,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:20.412025",
+        "updated_at": "2026-09-05T12:46:20.461205"
+    },
+    {
+        "case_id": "CASE-M00020-00054",
+        "merchant_id": "M00020",
+        "risk_score": 12.57,
+        "risk_category": "Low",
+        "findings": [],
+        "recommended_action": "MONITOR",
+        "confidence": 100,
+        "status": "COMPLETED",
+        "review_id": null,
+        "review_status": "NOT_REQUIRED",
+        "reviewer": null,
+        "review_decision": null,
+        "review_comments": null,
+        "created_at": "2026-09-05T12:46:20.502108",
+        "updated_at": "2026-09-05T12:46:20.547968"
+    }
+]

@@ -1,0 +1,261 @@
+[
+    {
+        "status": "ACTION_CREATED",
+        "timestamp": "2026-09-01T22:13:56",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "failure_rate": 0.115,
+        "decision": "INVESTIGATE",
+        "action_type": "START_INVESTIGATION",
+        "priority": "HIGH",
+        "human_approval_required": false,
+        "action_description": "Automated investigation should be performed to identify the likely cause of merchant risk.",
+        "decision_reason": "Very high merchant risk detected. Automated investigation is required.",
+        "investigation_available": false,
+        "next_step": "Proceed with automated merchant risk investigation."
+    },
+    {
+        "status": "ACTION_CREATED",
+        "timestamp": "2026-09-01T22:13:58",
+        "merchant_id": "M00005",
+        "risk_score": 100.0,
+        "risk_category": "Critical",
+        "failure_rate": 0.115,
+        "decision": "ESCALATE",
+        "action_type": "HUMAN_REVIEW",
+        "priority": "CRITICAL",
+        "human_approval_required": true,
+        "action_description": "Critical merchant risk requires immediate human review and intervention.",
+        "decision_reason": "Critical merchant risk detected. Immediate investigation and human review are required.",
+        "investigation_available": true,
+        "investigation": {
+            "merchant_id": "M00005",
+            "status": "Investigation Complete",
+            "merchant_profile": {
+                "merchant_id": "M00005",
+                "merchant_category": "Travel",
+                "merchant_size": "Small",
+                "avg_transaction_value": 25178.21,
+                "monthly_transaction_volume": 2381,
+                "baseline_success_rate": 0.91,
+                "primary_payment_method": "Net Banking",
+                "geography": "East",
+                "subscription_enabled": false
+            },
+            "incident": {
+                "severity": "High",
+                "failure_rate": 0.2566,
+                "failed_transactions": 29
+            },
+            "root_cause_analysis": {
+                "dominant_failure_reason": "Technical Error",
+                "dominant_failure_count": 20,
+                "likely_cause": "Potential technical or platform-side payment-processing issue."
+            },
+            "payment_method_analysis": {
+                "payment_method": "Net Banking",
+                "failure_rate": 0.25663716814159293,
+                "transactions": 113,
+                "failures": 29
+            },
+            "hourly_analysis": {
+                "hour": 13,
+                "failure_rate": 0.5714285714285714,
+                "transactions": 7,
+                "failures": 4
+            },
+            "business_impact": {
+                "estimated_failed_value": 744409.88,
+                "average_transaction_value": 25669.31
+            },
+            "recommendation": {
+                "action": "Immediately investigate the incident. Review the dominant failure reason and affected payment channels. Escalate to payment operations for human review. The payment method showing the highest failure rate is Net Banking.",
+                "confidence": "Medium",
+                "human_approval_required": true
+            },
+            "evidence": {
+                "merchant_profile": {
+                    "merchant_id": "M00005",
+                    "merchant_category": "Travel",
+                    "merchant_size": "Small",
+                    "avg_transaction_value": 25178.21,
+                    "monthly_transaction_volume": 2381,
+                    "baseline_success_rate": 0.91,
+                    "primary_payment_method": "Net Banking",
+                    "geography": "East",
+                    "subscription_enabled": false
+                },
+                "merchant_summary": {
+                    "merchant_id": "M00005",
+                    "transaction_count": 113,
+                    "total_value": 2900631.59,
+                    "failed_transactions": 29,
+                    "failure_rate": 0.2566
+                },
+                "failure_breakdown": {
+                    "Technical Error": 20,
+                    "Insufficient Funds": 4,
+                    "Authentication Failure": 3,
+                    "Payment Timeout": 1,
+                    "Network Error": 1
+                },
+                "payment_method_breakdown": [
+                    {
+                        "payment_method": "Net Banking",
+                        "transactions": 113,
+                        "failures": 29,
+                        "failure_rate": 0.25663716814159293
+                    }
+                ],
+                "hourly_failure_pattern": [
+                    {
+                        "hour": 0,
+                        "transactions": 1,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 1,
+                        "transactions": 1,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 2,
+                        "transactions": 8,
+                        "failures": 2,
+                        "failure_rate": 0.25
+                    },
+                    {
+                        "hour": 3,
+                        "transactions": 2,
+                        "failures": 1,
+                        "failure_rate": 0.5
+                    },
+                    {
+                        "hour": 4,
+                        "transactions": 6,
+                        "failures": 2,
+                        "failure_rate": 0.3333333333333333
+                    },
+                    {
+                        "hour": 5,
+                        "transactions": 6,
+                        "failures": 2,
+                        "failure_rate": 0.3333333333333333
+                    },
+                    {
+                        "hour": 6,
+                        "transactions": 4,
+                        "failures": 1,
+                        "failure_rate": 0.25
+                    },
+                    {
+                        "hour": 7,
+                        "transactions": 5,
+                        "failures": 2,
+                        "failure_rate": 0.4
+                    },
+                    {
+                        "hour": 8,
+                        "transactions": 4,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 9,
+                        "transactions": 6,
+                        "failures": 2,
+                        "failure_rate": 0.3333333333333333
+                    },
+                    {
+                        "hour": 10,
+                        "transactions": 8,
+                        "failures": 3,
+                        "failure_rate": 0.375
+                    },
+                    {
+                        "hour": 11,
+                        "transactions": 5,
+                        "failures": 1,
+                        "failure_rate": 0.2
+                    },
+                    {
+                        "hour": 12,
+                        "transactions": 4,
+                        "failures": 1,
+                        "failure_rate": 0.25
+                    },
+                    {
+                        "hour": 13,
+                        "transactions": 7,
+                        "failures": 4,
+                        "failure_rate": 0.5714285714285714
+                    },
+                    {
+                        "hour": 14,
+                        "transactions": 4,
+                        "failures": 1,
+                        "failure_rate": 0.25
+                    },
+                    {
+                        "hour": 15,
+                        "transactions": 2,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 16,
+                        "transactions": 4,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 17,
+                        "transactions": 7,
+                        "failures": 2,
+                        "failure_rate": 0.2857142857142857
+                    },
+                    {
+                        "hour": 18,
+                        "transactions": 4,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 19,
+                        "transactions": 7,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 20,
+                        "transactions": 4,
+                        "failures": 0,
+                        "failure_rate": 0.0
+                    },
+                    {
+                        "hour": 21,
+                        "transactions": 3,
+                        "failures": 1,
+                        "failure_rate": 0.3333333333333333
+                    },
+                    {
+                        "hour": 22,
+                        "transactions": 3,
+                        "failures": 1,
+                        "failure_rate": 0.3333333333333333
+                    },
+                    {
+                        "hour": 23,
+                        "transactions": 8,
+                        "failures": 3,
+                        "failure_rate": 0.375
+                    }
+                ]
+            }
+        },
+        "next_step": "Human approval required before executing the recommended action."
+    }
+]

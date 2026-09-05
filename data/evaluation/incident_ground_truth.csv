@@ -1,0 +1,101 @@
+merchant_id,merchant_category,merchant_size,geography,total_transactions,failed_transactions,failure_rate,failed_transaction_value,dominant_failure_reason,incident_severity,actual_incident,required_action,revenue_at_risk,incident_reason
+M00001,Food Delivery,Small,East,115,11,0.0957,3526.41,Bank Decline,High,1,INVESTIGATE,3526.41,Material payment failure pattern detected.
+M00002,Retail,Small,West,110,8,0.0727,7310.95,Payment Timeout,Medium,0,MONITOR,7310.95,No material payment incident detected.
+M00003,Education,Small,Central,102,7,0.0686,29761.22,Bank Decline,Medium,0,MONITOR,29761.22,No material payment incident detected.
+M00004,Education,Medium,West,103,5,0.0485,10639.87,Bank Decline,Low,0,NO_ACTION,10639.87,No material payment incident detected.
+M00005,Travel,Small,East,113,13,0.115,347866.69,Insufficient Funds,Critical,1,ESCALATE,347866.69,Material payment failure pattern detected.
+M00006,Retail,Small,Central,96,6,0.0625,16487.51,Network Error,Medium,0,MONITOR,16487.51,No material payment incident detected.
+M00007,Gaming,Small,South,114,13,0.114,40678.28,Network Error,Critical,1,ESCALATE,40678.28,Material payment failure pattern detected.
+M00008,Travel,Small,East,91,7,0.0769,80920.61,Insufficient Funds,High,1,INVESTIGATE,80920.61,Material payment failure pattern detected.
+M00009,Gaming,Small,South,94,2,0.0213,765.49,Bank Decline,Low,0,NO_ACTION,765.49,No material payment incident detected.
+M00010,Retail,Medium,Central,89,6,0.0674,12445.74,Payment Timeout,Medium,0,MONITOR,12445.74,No material payment incident detected.
+M00011,Education,Small,East,112,5,0.0446,36697.82,Bank Decline,Low,0,NO_ACTION,36697.82,No material payment incident detected.
+M00012,SaaS,Medium,West,89,6,0.0674,76535.92,Insufficient Funds,Medium,0,MONITOR,76535.92,No material payment incident detected.
+M00013,E-commerce,Small,East,105,9,0.0857,21556.68,Network Error,High,1,INVESTIGATE,21556.68,Material payment failure pattern detected.
+M00014,E-commerce,Large,Central,105,7,0.0667,29613.97,Authentication Failure,Medium,0,MONITOR,29613.97,No material payment incident detected.
+M00015,E-commerce,Medium,Central,92,5,0.0543,9330.43,Network Error,Medium,0,MONITOR,9330.43,No material payment incident detected.
+M00016,Retail,Medium,North,107,9,0.0841,8674.38,Technical Error,High,1,INVESTIGATE,8674.38,Material payment failure pattern detected.
+M00017,Professional Services,Small,East,96,5,0.0521,49268.41,Network Error,Medium,0,MONITOR,49268.41,No material payment incident detected.
+M00018,Professional Services,Small,North,92,4,0.0435,31444.48,Bank Decline,Low,0,NO_ACTION,31444.48,No material payment incident detected.
+M00019,E-commerce,Medium,Central,85,5,0.0588,25728.01,Bank Decline,Medium,0,MONITOR,25728.01,No material payment incident detected.
+M00020,Healthcare,Small,East,108,7,0.0648,51109.76,Insufficient Funds,Medium,0,MONITOR,51109.76,No material payment incident detected.
+M00021,E-commerce,Small,North,103,4,0.0388,10653.98,Payment Timeout,Low,0,NO_ACTION,10653.98,No material payment incident detected.
+M00022,Food Delivery,Small,West,97,4,0.0412,1866.55,Insufficient Funds,Low,0,NO_ACTION,1866.55,No material payment incident detected.
+M00023,Healthcare,Small,Central,90,6,0.0667,41751.11,Network Error,Medium,0,MONITOR,41751.11,No material payment incident detected.
+M00024,Gaming,Small,Central,98,6,0.0612,5451.8,Insufficient Funds,Medium,0,MONITOR,5451.8,No material payment incident detected.
+M00025,Food Delivery,Small,South,75,2,0.0267,2366.98,Bank Decline,Low,0,NO_ACTION,2366.98,No material payment incident detected.
+M00026,Retail,Medium,North,92,6,0.0652,10515.31,Payment Timeout,Medium,0,MONITOR,10515.31,No material payment incident detected.
+M00027,E-commerce,Large,Central,99,6,0.0606,9226.13,Authentication Failure,Medium,0,MONITOR,9226.13,No material payment incident detected.
+M00028,E-commerce,Small,West,102,6,0.0588,12711.39,Authentication Failure,Medium,0,MONITOR,12711.39,No material payment incident detected.
+M00029,Retail,Small,West,104,7,0.0673,29137.05,Insufficient Funds,Medium,0,MONITOR,29137.05,No material payment incident detected.
+M00030,E-commerce,Small,West,108,4,0.037,8843.35,Bank Decline,Low,0,NO_ACTION,8843.35,No material payment incident detected.
+M00031,Media,Small,North,89,7,0.0787,15537.14,Authentication Failure,High,1,INVESTIGATE,15537.14,Material payment failure pattern detected.
+M00032,Retail,Medium,South,102,5,0.049,9209.92,Insufficient Funds,Low,0,NO_ACTION,9209.92,No material payment incident detected.
+M00033,E-commerce,Small,West,104,2,0.0192,10392.17,Network Error,Low,0,NO_ACTION,10392.17,No material payment incident detected.
+M00034,Gaming,Medium,Central,95,4,0.0421,6041.52,Authentication Failure,Low,0,NO_ACTION,6041.52,No material payment incident detected.
+M00035,Retail,Small,Central,118,8,0.0678,16332.86,Authentication Failure,Medium,0,MONITOR,16332.86,No material payment incident detected.
+M00036,Food Delivery,Medium,South,99,5,0.0505,5010.91,Insufficient Funds,Medium,0,MONITOR,5010.91,No material payment incident detected.
+M00037,Education,Medium,West,98,3,0.0306,20730.2,Payment Timeout,Low,0,NO_ACTION,20730.2,No material payment incident detected.
+M00038,Education,Small,Central,108,6,0.0556,21940.03,Technical Error,Medium,0,MONITOR,21940.03,No material payment incident detected.
+M00039,Gaming,Small,West,103,4,0.0388,7458.02,Payment Timeout,Low,0,NO_ACTION,7458.02,No material payment incident detected.
+M00040,Professional Services,Small,West,85,1,0.0118,14859.75,Payment Timeout,Low,0,NO_ACTION,14859.75,No material payment incident detected.
+M00041,E-commerce,Small,East,102,2,0.0196,10577.55,Payment Timeout,Low,0,NO_ACTION,10577.55,No material payment incident detected.
+M00042,Healthcare,Small,East,91,9,0.0989,82506.41,Bank Decline,High,1,INVESTIGATE,82506.41,Material payment failure pattern detected.
+M00043,Professional Services,Small,North,100,7,0.07,37104.61,Insufficient Funds,Medium,0,MONITOR,37104.61,No material payment incident detected.
+M00044,Professional Services,Small,East,92,7,0.0761,109327.31,Payment Timeout,High,1,INVESTIGATE,109327.31,Material payment failure pattern detected.
+M00045,Media,Small,East,92,6,0.0652,13506.58,Bank Decline,Medium,0,MONITOR,13506.58,No material payment incident detected.
+M00046,Professional Services,Small,East,111,8,0.0721,105822.73,Technical Error,Medium,0,MONITOR,105822.73,No material payment incident detected.
+M00047,Healthcare,Medium,Central,98,3,0.0306,5641.23,Technical Error,Low,0,NO_ACTION,5641.23,No material payment incident detected.
+M00048,Food Delivery,Medium,Central,98,7,0.0714,5869.11,Authentication Failure,Medium,0,MONITOR,5869.11,No material payment incident detected.
+M00049,Retail,Medium,North,104,5,0.0481,6307.11,Authentication Failure,Low,0,NO_ACTION,6307.11,No material payment incident detected.
+M00050,SaaS,Small,West,104,4,0.0385,50504.08,Bank Decline,Low,0,NO_ACTION,50504.08,No material payment incident detected.
+M00051,Retail,Medium,West,89,9,0.1011,34831.6,Payment Timeout,Critical,1,ESCALATE,34831.6,Material payment failure pattern detected.
+M00052,Travel,Medium,South,93,7,0.0753,171756.53,Bank Decline,High,1,INVESTIGATE,171756.53,Material payment failure pattern detected.
+M00053,Education,Small,South,94,8,0.0851,30451.52,Insufficient Funds,High,1,INVESTIGATE,30451.52,Material payment failure pattern detected.
+M00054,Media,Small,South,95,8,0.0842,7917.14,Payment Timeout,High,1,INVESTIGATE,7917.14,Material payment failure pattern detected.
+M00055,SaaS,Medium,West,100,9,0.09,105836.31,Insufficient Funds,High,1,INVESTIGATE,105836.31,Material payment failure pattern detected.
+M00056,E-commerce,Large,South,104,7,0.0673,34486.46,Technical Error,Medium,0,MONITOR,34486.46,No material payment incident detected.
+M00057,Healthcare,Medium,East,100,7,0.07,71597.68,Network Error,Medium,0,MONITOR,71597.68,No material payment incident detected.
+M00058,Food Delivery,Small,West,87,2,0.023,2951.11,Network Error,Low,0,NO_ACTION,2951.11,No material payment incident detected.
+M00059,Retail,Medium,South,91,4,0.044,2716.59,Payment Timeout,Low,0,NO_ACTION,2716.59,No material payment incident detected.
+M00060,Food Delivery,Medium,North,101,5,0.0495,2770.88,Bank Decline,Low,0,NO_ACTION,2770.88,No material payment incident detected.
+M00061,SaaS,Medium,Central,93,2,0.0215,13058.45,Technical Error,Low,0,NO_ACTION,13058.45,No material payment incident detected.
+M00062,Retail,Medium,East,106,3,0.0283,17485.25,Technical Error,Low,0,NO_ACTION,17485.25,No material payment incident detected.
+M00063,Healthcare,Small,East,93,4,0.043,20827.29,Technical Error,Low,0,NO_ACTION,20827.29,No material payment incident detected.
+M00064,Professional Services,Large,South,106,11,0.1038,70475.74,Technical Error,Critical,1,ESCALATE,70475.74,Material payment failure pattern detected.
+M00065,E-commerce,Large,South,112,7,0.0625,9724.49,Payment Timeout,Medium,0,MONITOR,9724.49,No material payment incident detected.
+M00066,Education,Large,Central,89,3,0.0337,4138.1,Authentication Failure,Low,0,NO_ACTION,4138.1,No material payment incident detected.
+M00067,Food Delivery,Medium,West,120,6,0.05,2925.22,Authentication Failure,Medium,0,MONITOR,2925.22,No material payment incident detected.
+M00068,Retail,Medium,North,121,14,0.1157,22012.75,Payment Timeout,Critical,1,ESCALATE,22012.75,Material payment failure pattern detected.
+M00069,Education,Small,North,84,7,0.0833,36788.32,Bank Decline,High,1,INVESTIGATE,36788.32,Material payment failure pattern detected.
+M00070,Food Delivery,Large,West,93,5,0.0538,5336.23,Network Error,Medium,0,MONITOR,5336.23,No material payment incident detected.
+M00071,Retail,Small,South,106,7,0.066,21310.16,Network Error,Medium,0,MONITOR,21310.16,No material payment incident detected.
+M00072,Media,Small,Central,105,5,0.0476,4745.11,Bank Decline,Low,0,NO_ACTION,4745.11,No material payment incident detected.
+M00073,SaaS,Small,East,111,5,0.045,16247.47,Network Error,Low,0,NO_ACTION,16247.47,No material payment incident detected.
+M00074,Gaming,Medium,North,105,5,0.0476,5334.58,Technical Error,Low,0,NO_ACTION,5334.58,No material payment incident detected.
+M00075,E-commerce,Small,Central,89,2,0.0225,1063.06,Network Error,Low,0,NO_ACTION,1063.06,No material payment incident detected.
+M00076,Education,Small,West,111,13,0.1171,89008.13,Payment Timeout,Critical,1,ESCALATE,89008.13,Material payment failure pattern detected.
+M00077,Professional Services,Medium,South,112,6,0.0536,46801.62,Payment Timeout,Medium,0,MONITOR,46801.62,No material payment incident detected.
+M00078,SaaS,Medium,West,103,9,0.0874,111306.58,Insufficient Funds,High,1,INVESTIGATE,111306.58,Material payment failure pattern detected.
+M00079,Food Delivery,Large,Central,94,5,0.0532,1153.34,Network Error,Medium,0,MONITOR,1153.34,No material payment incident detected.
+M00080,Media,Small,East,102,6,0.0588,3460.18,Authentication Failure,Medium,0,MONITOR,3460.18,No material payment incident detected.
+M00081,Media,Small,West,106,1,0.0094,447.92,Network Error,Low,0,NO_ACTION,447.92,No material payment incident detected.
+M00082,Education,Large,South,109,4,0.0367,26734.69,Payment Timeout,Low,0,NO_ACTION,26734.69,No material payment incident detected.
+M00083,Retail,Small,North,108,12,0.1111,20043.67,Technical Error,Critical,1,ESCALATE,20043.67,Material payment failure pattern detected.
+M00084,Food Delivery,Small,East,90,9,0.1,3186.34,Technical Error,Critical,1,ESCALATE,3186.34,Material payment failure pattern detected.
+M00085,Gaming,Medium,South,96,4,0.0417,1251.13,Payment Timeout,Low,0,NO_ACTION,1251.13,No material payment incident detected.
+M00086,Food Delivery,Large,West,96,9,0.0938,11179.37,Bank Decline,High,1,INVESTIGATE,11179.37,Material payment failure pattern detected.
+M00087,Media,Small,East,86,6,0.0698,11319.95,Payment Timeout,Medium,0,MONITOR,11319.95,No material payment incident detected.
+M00088,Food Delivery,Small,Central,87,8,0.092,5502.28,Authentication Failure,High,1,INVESTIGATE,5502.28,Material payment failure pattern detected.
+M00089,Education,Small,West,109,6,0.055,35696.94,Technical Error,Medium,0,MONITOR,35696.94,No material payment incident detected.
+M00090,Healthcare,Medium,East,91,8,0.0879,80261.01,Authentication Failure,High,1,INVESTIGATE,80261.01,Material payment failure pattern detected.
+M00091,Professional Services,Small,East,98,5,0.051,88428.9,Bank Decline,Medium,0,MONITOR,88428.9,No material payment incident detected.
+M00092,Healthcare,Medium,Central,116,8,0.069,40795.72,Authentication Failure,Medium,0,MONITOR,40795.72,No material payment incident detected.
+M00093,SaaS,Small,East,116,10,0.0862,71389.44,Network Error,High,1,INVESTIGATE,71389.44,Material payment failure pattern detected.
+M00094,SaaS,Small,South,109,1,0.0092,14761.37,Payment Timeout,Low,0,NO_ACTION,14761.37,No material payment incident detected.
+M00095,E-commerce,Small,West,94,6,0.0638,3371.28,Payment Timeout,Medium,0,MONITOR,3371.28,No material payment incident detected.
+M00096,Gaming,Small,Central,100,5,0.05,8557.09,Network Error,Medium,0,MONITOR,8557.09,No material payment incident detected.
+M00097,Professional Services,Small,West,98,8,0.0816,59287.72,Payment Timeout,High,1,INVESTIGATE,59287.72,Material payment failure pattern detected.
+M00098,SaaS,Medium,South,119,4,0.0336,54756.15,Insufficient Funds,Low,0,NO_ACTION,54756.15,No material payment incident detected.
+M00099,Retail,Small,East,95,6,0.0632,21262.17,Authentication Failure,Medium,0,MONITOR,21262.17,No material payment incident detected.
+M00100,E-commerce,Small,Central,89,4,0.0449,2638.81,Authentication Failure,Low,0,NO_ACTION,2638.81,No material payment incident detected.

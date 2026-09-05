@@ -1,0 +1,101 @@
+merchant_id,merchant_category,merchant_size,avg_transaction_value,monthly_transaction_volume,baseline_success_rate,primary_payment_method,geography,subscription_enabled
+M00001,Food Delivery,Small,381.4,919,0.955,UPI,East,False
+M00002,Retail,Small,921.63,1452,0.955,UPI,West,False
+M00003,Education,Small,4144.46,1639,0.94,Credit Card,Central,False
+M00004,Education,Medium,2088.36,8514,0.96,UPI,West,True
+M00005,Travel,Small,25178.21,2381,0.91,Net Banking,East,False
+M00006,Retail,Small,3328.88,1981,0.955,UPI,Central,False
+M00007,Gaming,Small,2957.14,1453,0.915,Net Banking,South,False
+M00008,Travel,Small,13881.77,1593,0.93,Credit Card,East,False
+M00009,Gaming,Small,809.95,2393,0.935,Credit Card,South,False
+M00010,Retail,Medium,1959.27,3916,0.955,UPI,Central,False
+M00011,Education,Small,7391.95,2823,0.96,UPI,East,False
+M00012,SaaS,Medium,10714.22,5340,0.925,Net Banking,West,True
+M00013,E-commerce,Small,2427.95,2890,0.925,Debit Card,East,False
+M00014,E-commerce,Large,3901.02,29371,0.935,Credit Card,Central,False
+M00015,E-commerce,Medium,2217.29,10668,0.955,UPI,Central,False
+M00016,Retail,Medium,1015.48,11797,0.925,Debit Card,North,False
+M00017,Professional Services,Small,10713.3,1578,0.945,Credit Card,East,False
+M00018,Professional Services,Small,8073.56,2579,0.925,Net Banking,North,False
+M00019,E-commerce,Medium,4650.95,3009,0.945,Wallet,Central,False
+M00020,Healthcare,Small,8484.99,1759,0.92,Net Banking,East,False
+M00021,E-commerce,Small,2686.96,783,0.955,UPI,North,False
+M00022,Food Delivery,Small,414.67,2661,0.945,Wallet,West,False
+M00023,Healthcare,Small,7208.81,1776,0.92,Net Banking,Central,False
+M00024,Gaming,Small,818.93,762,0.935,Credit Card,Central,False
+M00025,Food Delivery,Small,1120.19,741,0.955,UPI,South,False
+M00026,Retail,Medium,1753.15,10953,0.935,Credit Card,North,False
+M00027,E-commerce,Large,1593.49,76993,0.935,Credit Card,Central,False
+M00028,E-commerce,Small,2349.96,721,0.955,UPI,West,False
+M00029,Retail,Small,4102.67,947,0.925,Debit Card,West,False
+M00030,E-commerce,Small,2581.83,808,0.955,UPI,West,False
+M00031,Media,Small,1713.65,560,0.92,Net Banking,North,False
+M00032,Retail,Medium,2666.11,9570,0.935,Credit Card,South,False
+M00033,E-commerce,Small,4028.32,2363,0.955,UPI,West,False
+M00034,Gaming,Medium,1511.35,6111,0.925,Debit Card,Central,True
+M00035,Retail,Small,1911.22,705,0.955,UPI,Central,False
+M00036,Food Delivery,Medium,860.18,6044,0.955,UPI,South,True
+M00037,Education,Medium,7232.01,7033,0.96,UPI,West,True
+M00038,Education,Small,3214.59,1568,0.93,Debit Card,Central,True
+M00039,Gaming,Small,1971.95,2372,0.955,UPI,West,False
+M00040,Professional Services,Small,12570.89,909,0.925,Net Banking,West,True
+M00041,E-commerce,Small,4456.72,2013,0.945,Wallet,East,False
+M00042,Healthcare,Small,9885.1,2666,0.93,Debit Card,East,True
+M00043,Professional Services,Small,5282.95,972,0.955,Wallet,North,False
+M00044,Professional Services,Small,15199.41,1333,0.925,Net Banking,East,False
+M00045,Media,Small,2569.09,878,0.95,Wallet,East,False
+M00046,Professional Services,Small,13830.93,1572,0.925,Net Banking,East,True
+M00047,Healthcare,Medium,1677.19,14321,0.96,UPI,Central,False
+M00048,Food Delivery,Medium,758.72,3685,0.935,Credit Card,Central,False
+M00049,Retail,Medium,1445.34,7088,0.945,Wallet,North,False
+M00050,SaaS,Small,11993.73,1469,0.955,Wallet,West,False
+M00051,Retail,Medium,3814.54,8442,0.955,UPI,West,False
+M00052,Travel,Medium,24684.36,4771,0.93,Credit Card,South,False
+M00053,Education,Small,4222.12,1750,0.92,Net Banking,South,False
+M00054,Media,Small,980.09,784,0.94,Credit Card,South,False
+M00055,SaaS,Medium,13123.93,8425,0.925,Net Banking,West,False
+M00056,E-commerce,Large,4925.98,20014,0.935,Credit Card,South,False
+M00057,Healthcare,Medium,9858.12,4894,0.94,Credit Card,East,False
+M00058,Food Delivery,Small,1403.25,2705,0.955,UPI,West,False
+M00059,Retail,Medium,814.88,13882,0.955,UPI,South,False
+M00060,Food Delivery,Medium,590.42,8067,0.925,Debit Card,North,False
+M00061,SaaS,Medium,8045.36,9211,0.965,UPI,Central,True
+M00062,Retail,Medium,4251.76,7978,0.935,Credit Card,East,False
+M00063,Healthcare,Small,4979.44,1375,0.94,Credit Card,East,False
+M00064,Professional Services,Large,7824.37,97960,0.925,Net Banking,South,False
+M00065,E-commerce,Large,1510.88,41100,0.925,Debit Card,South,False
+M00066,Education,Large,1509.8,69321,0.92,Net Banking,Central,False
+M00067,Food Delivery,Medium,517.18,13748,0.935,Credit Card,West,False
+M00068,Retail,Medium,1484.79,14401,0.925,Debit Card,North,False
+M00069,Education,Small,6609.92,2675,0.94,Credit Card,North,False
+M00070,Food Delivery,Large,1135.06,81162,0.925,Debit Card,West,False
+M00071,Retail,Small,2636.03,1561,0.925,Debit Card,South,False
+M00072,Media,Small,869.89,2301,0.94,Credit Card,Central,True
+M00073,SaaS,Small,3966.93,1117,0.925,Net Banking,East,True
+M00074,Gaming,Medium,1059.56,10633,0.935,Credit Card,North,False
+M00075,E-commerce,Small,587.89,2858,0.945,Wallet,Central,False
+M00076,Education,Small,7674.01,2216,0.92,Net Banking,West,True
+M00077,Professional Services,Medium,7639.9,10956,0.945,Credit Card,South,True
+M00078,SaaS,Medium,13086.07,5091,0.925,Net Banking,West,False
+M00079,Food Delivery,Large,235.23,99246,0.935,Credit Card,Central,False
+M00080,Media,Small,792.65,1838,0.94,Credit Card,East,True
+M00081,Media,Small,429.34,579,0.96,UPI,West,False
+M00082,Education,Large,6468.63,20276,0.93,Debit Card,South,False
+M00083,Retail,Small,1573.45,2439,0.925,Debit Card,North,False
+M00084,Food Delivery,Small,418.13,2987,0.915,Net Banking,East,False
+M00085,Gaming,Medium,413.49,3420,0.945,Wallet,South,False
+M00086,Food Delivery,Large,1129.52,24961,0.955,UPI,West,False
+M00087,Media,Small,1881.15,995,0.95,Wallet,East,False
+M00088,Food Delivery,Small,681.74,2572,0.955,UPI,Central,False
+M00089,Education,Small,7725.51,2383,0.96,UPI,West,False
+M00090,Healthcare,Medium,9276.56,10921,0.93,Debit Card,East,False
+M00091,Professional Services,Small,17122.43,854,0.925,Net Banking,East,False
+M00092,Healthcare,Medium,4410.9,3470,0.93,Debit Card,Central,False
+M00093,SaaS,Small,7084.07,2941,0.925,Net Banking,East,True
+M00094,SaaS,Small,11640.9,2501,0.965,UPI,South,True
+M00095,E-commerce,Small,577.59,1705,0.935,Credit Card,West,False
+M00096,Gaming,Small,1705.07,1908,0.955,UPI,Central,False
+M00097,Professional Services,Small,7273.86,994,0.945,Credit Card,West,False
+M00098,SaaS,Medium,11863.26,7530,0.945,Credit Card,South,True
+M00099,Retail,Small,4246.83,1713,0.945,Wallet,East,False
+M00100,E-commerce,Small,704.82,723,0.955,UPI,Central,False
